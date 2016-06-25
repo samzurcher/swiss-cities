@@ -1,0 +1,27 @@
+{
+  "name": "swiss-cities",
+  "version": "1.0.0",
+  "description": "Provides a list of swiss cities based on data from bfs.admin.ch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samzurcher/swiss-cities.git"
+  },
+  "keywords": [
+    "Swiss",
+    "Cities"
+  ],
+  "author": "Sam Zurcher <sam.zurcher@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samzurcher/swiss-cities/issues"
+  },
+  "homepage": "https://github.com/samzurcher/swiss-cities",
+  "dependencies": {
+    "fast-csv": "^2.0.0",
+    "jsonfile": "^2.3.1"
+  }
+}
