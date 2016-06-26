@@ -1,4 +1,4 @@
-[
+module["exports"] = [
   {
     "state": "TG",
     "name": "Aadorf",
