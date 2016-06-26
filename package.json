@@ -1,6 +1,6 @@
 {
   "name": "swiss-cities",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Provides a list of swiss cities based on data from bfs.admin.ch",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,6 @@
-var fs = require('fs');
 var path = require('path');
-var swissCities = JSON.parse(fs.readFileSync('./swiss-cities.json', 'utf8'));
+var jsonfile = require('jsonfile');
+
+var fileName = path.join(path.dirname(__filename), 'swiss-cities.json');
+var swissCities = jsonfile.readFileSync(fileName);
 exports.swissCities = swissCities;
