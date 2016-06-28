@@ -1,4 +1,7 @@
-var path = require('path');
+exports.allSwissCities = function() {
+    return require('./swiss-cities.js');
+};
 
-var swissCities = require('./swiss-cities.js');
-exports.swissCities = swissCities;
+exports.randomSampleOfSwissCities = function() {
+    return require('./swiss-cities-random-sample.js');
+};
