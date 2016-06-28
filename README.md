@@ -5,7 +5,7 @@ Provides a list of swiss cities based on data from [bfs.admin.ch](http://www.bfs
 `npm install swiss-cities`
 
 ## Usage
-Exports all data in `swissCities`.
+Exports all data in `allSwissCities()` and `randomSampleOfSwissCities()`.
 
 ## How to Update based on new Data
 1. Download current list from [bfs.admin.ch](http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/04.html)
